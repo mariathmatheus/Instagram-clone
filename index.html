@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="./styles.css"> <!-- Utilizado para linkar a folha de estilo --> 
+    
 </head>
 <body>
     <div class="container-imagens">
@@ -31,20 +32,6 @@
             <img class="logo-app" src="./img/google.png" alt="Logo do google">
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
-<script>
-    let imagem = document.getElementById("troca-imagem")
-    function trocaImagem(){
-
-        if(imagem.style.opacity == 0) {
-            imagem.style.opacity = 1
-        }
-        else {
-            imagem.style.opacity = 0
-        }
-    }
-    setInterval(function () {
-            trocaImagem()
-    }, 4000);
-</script>
 </html>
