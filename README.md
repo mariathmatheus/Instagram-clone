@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="./img/Instagram-clone.png"/>
+ 
 
   </p>
 
